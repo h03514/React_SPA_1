@@ -1,0 +1,6 @@
+[
+    { "id": 1, "name": "蘋果", "price": 50, "image": "apple.jpg", "description": "新鮮蘋果50克" }
+    ,{ "id": 2, "name": "香蕉", "price": 30, "image": "banana.jpg", "description": "好吃香蕉100克" }
+    ,{ "id": 3, "name": "芭樂", "price": 40, "image": "guava.jpg", "description": "清脆芭樂200克" }
+    ,{ "id": 4, "name": "西瓜", "price": 60, "image": "watermelon.jpg", "description": "香甜西瓜20斤" }
+]
