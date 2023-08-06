@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import styles from './ProductList.module.css';
 import { useState, useEffect } from 'react';
 import Title from "./Title";
+import QuantityBtn from "./QuantityBtn";
 
 export default function ProductList() {
 
@@ -32,6 +33,8 @@ export default function ProductList() {
                                     <img alt='' src={process.env.PUBLIC_URL + '/img/' + product.image} />
                                 </Link>
                                 <p>{product.description}</p>
+                                
+                                <QuantityBtn />
                             </div>
                         )
                     })
